@@ -1,0 +1,83 @@
+.Card_Unselect {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 90%;
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    z-index: 5;
+    border: 1px solid #888888;
+    border-radius: 8px;
+}
+
+.card_leftSide {
+    flex:0.3;
+    justify-content: center;
+    align-self: center;
+    /* background-color: orange; */
+}
+.card_leftSide_img {
+    height: 70px;
+    width: 70px;
+    margin:auto;
+    background-color: #D8D8D8;
+    border-radius:4px ;
+
+}
+.Card_Selected {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 90%;
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #F5F8FA;
+    z-index: 5;
+    border: 1px solid #1A8FE6;
+    border-radius: 8px;
+    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card_leftSide_selected {
+    flex:0.3;
+    justify-content: center;
+    align-self: center;
+    /* background-color: orange; */
+}
+.card_leftSide_img_selected {
+    height: 70px;
+    width: 70px;
+    margin:auto;
+    background-color: #1A8FE6;
+    opacity: 0.3;
+    border-radius:4px ;
+
+}
+
+.card_rightSide {
+    flex:0.7;
+    /* background-color: black; */
+    margin:auto
+}
+.card_rightSide span {
+    font-size: 14px
+}
+
+
+.Card_Selected,.Card_Unselect:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+@media screen and (max-width: 1400px) {
+    .card_rightSide span {
+        font-size: 13px
+
+    }
+  }

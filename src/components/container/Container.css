@@ -1,0 +1,35 @@
+.Container {
+    display: flex;
+    flex-direction: row;
+    height: 84vh;
+    min-width: 990px;
+}
+.left_container{
+    /* background-color:pink; */
+    width: 30vw;
+    height: 84vh;
+    overflow: auto;
+    min-width: 300px;
+}
+
+.left_container::-webkit-scrollbar {
+    display: none;
+  }
+  
+.right_container{
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    background-color:#F5F5F5;
+    width: 70vw;
+    min-width: 990px;
+
+}
+.right_container::-webkit-scrollbar {
+    display: none;
+  }
+.right_container_txt {
+    width: 80%;
+    margin:auto;
+    margin-top: 25px;
+}

@@ -1,0 +1,51 @@
+.FormThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin:auto
+}
+
+.formthree_file {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+/* position: relative; */
+/* margin:auto; */
+margin-top: 25px;
+padding-bottom: 50px;
+}
+
+.formthree_label {
+font-weight: 400;
+font-size: 16px;
+margin-bottom: 5px;
+width: 100%;
+align-self: center;
+color: #595959;
+
+}
+.formthree_input {
+
+background-color: white;
+width: 95%;
+height: 40px;
+/* margin-bottom: 5px; */
+padding: 20px;
+padding-top: 40px;
+margin:auto;
+margin-top: 5px;
+border:1px solid #888888;
+border-radius: 4px;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: flex;
+    background: url('../../assets/clock.png') no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}

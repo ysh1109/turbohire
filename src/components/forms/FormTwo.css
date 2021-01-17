@@ -1,0 +1,39 @@
+.FormTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin:auto
+    }
+    
+.formtwo_file {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    /* position: relative; */
+    /* margin:auto; */
+    margin-top: 25px;
+    padding-bottom: 50px;
+}
+
+.formtwo_label {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 5px;
+    width: 100%;
+    align-self: center;
+    color: #595959;
+    
+}
+.formtwo_input {
+   
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    margin:auto;
+    border:1px solid #888888;
+    border-radius: 4px;
+}
